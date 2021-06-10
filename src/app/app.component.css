@@ -1,0 +1,146 @@
+.top-row{
+    /* border: 1px solid #e4e4e4; */
+    background: #fff;
+  }
+  .top-col{
+      font-size: 22px;
+      color: #2B5F8F;
+  }
+  .font-size-10px{
+    font-size: 10px;
+    color: #2B5F8F;
+  }
+  .font-size-18px{
+    font-size: 18px;
+    color: #2B5F8F;
+  }
+  .font-size-15px{
+      font-size: 15px;
+      color: #2B5F8F;
+    } 
+  .font-size-20px {
+      font-size: 20px;
+      color: #2B5F8F;
+    }
+    .font-size-20px-black{
+      font-size: 20px;
+      font-weight: bold;
+      color: #1f1f1f;
+    }
+  .vertical-align-sub{
+        vertical-align: sub;
+    }
+  .submit-button{
+      background: #2B5F8F;
+      color: #fff;
+      font-size: 15px;
+      border: none;
+      border-radius: 16px;
+      padding: 8px 34px;
+      margin: 0px 7px 0px 0;
+    }
+    #footer {
+      visibility: visible;
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0%;
+      border-radius: 10px;
+      width: 30%;
+    }
+    .footer-area{
+      background: #f4f4f4;
+      height: auto;
+      border-radius: 20px;
+    }
+    .top-row .project-col{
+      font-size: 20px;
+      color: #505050;
+  }
+  
+  .top-row .edit-col{
+      font-size: 16px;
+      color: #505050;
+  }
+  
+  .bold-text,.normal-text{
+      font-size: 14px;
+      color: #636363;
+  }
+  
+  .remarks textarea{
+      font-size: 15px;
+  }
+  
+  .save-button{
+      background: #2B5F8F;
+      color: #fff;
+      font-size: 15px;
+      border: none;
+      border-radius: 16px;
+      padding: 5px 29px;
+      margin: 0 0 30px 0;   
+  }
+  
+  .cancel-button{
+      background: #908f8f;
+      color: #fff;
+      font-size: 15px;
+      border: none;
+      padding: 5px 29px;
+      border-radius: 16px;
+  }
+  
+  .save-button:disabled{
+      opacity: 0.5;
+  }
+  
+ 
+  /deep/ .multiselect-dropdown .dropdown-btn {
+    border: 1px solid #ced4da !important;
+    padding: 6px 6px !important;
+    margin-bottom: 1px !important;
+    border-radius: 0px !important;
+  }
+  
+  /deep/ .multiselect-dropdown .dropdown-btn .selected-item {
+      margin-right: 4px !important;
+      margin-bottom: 1px !important;
+      background: #cdcbcb !important;
+      border: none !important;
+      border-radius: 10px !important;
+    }
+    
+  
+  :host ::ng-deep .multiselect-dropdown .dropdown-btn .selected-item {
+    background: grey;
+  }
+  .variableForm{
+  
+  }
+  ::ng-deep .background-color {
+    background: rgb(242 242 242);
+  }
+  ::ng-deep .box-shadow{
+    box-shadow: 0px 4px 15px rgb(213 210 221);
+  }
+  .form-control{
+    font-size: 0.8rem;
+  }
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
